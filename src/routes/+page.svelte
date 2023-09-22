@@ -5,15 +5,17 @@ import Main from "$lib/components/layout/Main.svelte";
 </script>
 
 
-<section id="main-section" class="flex flex-col">
-    <Main/>
+<section id="main-section" class="flex flex-col h-screen w-screen">
+    <Main>
+        hello
+    </Main>
     <Playbar/>
 </section>
     
 
 <style>
   :global(html) {
-      background-color: #181816;
+      background-color: #000;
       
   }
 </style>

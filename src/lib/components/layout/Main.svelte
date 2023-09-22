@@ -5,7 +5,7 @@
 
 
 <!--color boxes will be #181816 -->
-<section class="height-[80vh]  w-screen m-0 p-6 ">
+<section class="flex-grow w-screen m-0 p-6 bg-blue-500">
     <!-- entry for content -->
     <slot/>
 </section>
