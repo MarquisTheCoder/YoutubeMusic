@@ -5,7 +5,7 @@ import Main from "$lib/components/layout/Main.svelte";
 </script>
 
 
-<section id="main-section" class="flex flex-col h-screen w-screen">
+<section id="main-section" class="flex flex-col text-white h-screen w-screen">
     <Main>
         hello
     </Main>
